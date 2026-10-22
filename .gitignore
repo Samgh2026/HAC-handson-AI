@@ -1,3 +1,5 @@
 .env
-hac_chroma_db/
-hac_rag_db/
+
+# Vector databases (Chroma)
+hac_*_db*/
+chroma.sqlite3
