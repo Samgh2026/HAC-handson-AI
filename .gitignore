@@ -3,3 +3,6 @@
 # Vector databases (Chroma)
 hac_*_db*/
 chroma.sqlite3
+
+# Python bytecode
+__pycache__/
