@@ -11,6 +11,7 @@ from crewai import Agent, Task ,Crew, Process
 from crewai_tools import WebsiteSearchTool
 
 WEBSITE = "https://www.oracle.com/in/news/"
+# links = ["link","link","link"]
 
 search_tool = WebsiteSearchTool(website = WEBSITE)
 
