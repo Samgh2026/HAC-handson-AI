@@ -28,7 +28,8 @@ writer_agent = Agent(
 write_task = Task(
     description = "Write a 350 word blog post about the {topic}",
     expected_output = "A blog post for Linkedin, with clickable title, 4 paragraphs",
-    agent = writer_agent # assigning this task to writer agent
+    agent = writer_agent, # assigning this task to writer agent
+    output_file = "nvidia_post.md"
 )
 
 # assemble the crew
